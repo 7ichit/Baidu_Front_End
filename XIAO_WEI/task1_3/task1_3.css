@@ -1,0 +1,59 @@
+/* 全局设置 */
+.Team_intro{
+	font-style: "Microsoft YaHei";
+	font-size: 15px;
+	padding: 20px;
+	background-color: #eee;
+    border: 1px solid #999;
+    min-width: 600px;   /* 保证浏览器宽度减小时的布局不会使右侧栏发生溢出 */
+	overflow: auto;    	/* 清除浮动:扩大父元素来抵消浮动造成的元素溢出 */
+    zoom: 1;    	    /* 使清除浮动兼容IE6 */
+}
+
+p{
+	text-indent: 2em;
+}
+
+h3{
+	text-align: center;
+}
+
+/* 三栏式布局 */
+.Team_info,.Team_descri,.Member_intro{
+	background-color: white;
+    border: 1px solid #999;
+    padding: 20px;
+}
+
+/* 简介栏 */
+.Team_info{
+	float: left;
+    width: 200px;
+}
+
+.Team_info img{
+	padding: 0px;
+}
+
+#Team_name{
+    border: 0px;
+    vertical-align: top;
+    background-color: white;
+    font-weight: bold;
+}
+
+/* 团队简述 */
+.Team_descri{
+	margin: 0px 180px 0px 260px;
+}
+
+/* 成员信息 */
+.Member_intro{
+	float: right;
+    width: 120px;
+}
+
+.Member_intro img{
+	padding: 0px;
+	margin:20px;
+}
