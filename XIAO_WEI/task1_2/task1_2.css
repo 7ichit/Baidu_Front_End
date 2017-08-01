@@ -1,0 +1,176 @@
+/* 全局设定 */
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft YaHei";
+	background-color: #DEDEDE;
+}
+
+/* 导航页 */
+nav{
+	height: 60px;
+	background-color: #333333;
+	vertical-align: middle;
+}	
+
+/* 辅助vertical-align:middle */
+#height{
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav img{
+	margin-left: 40px;
+	vertical-align: middle;
+}
+
+nav ul{
+    display: inline;
+	float: right;
+}
+
+nav ul li{
+	width: 90px;
+    float: left;
+    font: 10px/1.5em "Microsoft YaHei",sans-serif;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #A3A1A2;
+}
+
+/* 正文部分 */
+.article,.pictures,.sidebar{
+    background-color: white;
+    padding: 20px;
+    border-width: 0px 2px 2px 0px; 
+    border-style: solid;
+    border-color: #9F9F9F; 
+    margin: 20px;
+}
+
+p{
+	text-indent: 2em;
+}
+
+.headline{
+	color: #838383;
+	font-size: 20px;
+}
+
+.article_info{
+	color: #838383;
+	font-size: 12px;
+}
+
+#article2 ul li{
+	list-style-type: none;
+}
+
+.pic{
+	border: 1px solid #CECECE;
+	width: 130px;
+	margin-left: 50px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.pic img{
+    width: 70%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+}
+
+table{
+	width: 100%;
+    font-size: 15px;
+    border-collapse: collapse;
+    text-indent: 1em;
+    border: 1px solid #CCCCCC;
+}
+
+table thead{
+	color: white;
+	font-size: 15px;
+	background-color: #333333;
+}
+
+table thead tr td{
+	border: 1px solid #333333;
+	margin: 0px;
+	padding: 0px;
+}
+
+table tfoot{
+    background-color: #CCCCCC;
+    font-weight: bold;
+}
+
+/* 侧栏 */
+#sidebar1{
+	font-size: 17px;
+	padding: 10px;
+	border-left: 3px solid #CCCCCC;
+}
+
+/* 表单部分 */
+
+.sidebar{
+	font-size: 13px;
+}
+
+textarea{
+	width: 100%;
+	height: 100px;
+	font-size: 15px;
+	margin-top: 5px;
+}
+
+input[type="submit"]{
+	width: 100%;
+	height: 40px;
+	color: white;
+	background-color: #3355D0;
+	font-size: 15px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/* 将提示信息与输入框分为左右两部分 再调整对齐 */
+.left{
+	display: inline-block;
+	width: 30%;
+	text-align: right;
+	vertical-align: top;
+	line-height: 30px;
+	margin-right: 10px;
+}
+
+.right{
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	line-height: 30px;
+}
+
+.ins{
+	color: #9B9B9B;
+	font-size: 10px;
+}
+
+/* 版权信息 */
+footer{
+	width: 100%;
+	color: white;
+	font-size: 10px;
+	background-color: black;
+	padding: 20px 0px 30px 0px;
+	margin: 0px;
+	text-align: center;
+}
