@@ -1,0 +1,953 @@
+/* 全局设定 */
+html,body{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* 导航栏 */
+.nav{
+	width: 100%;
+	height: 56px;
+	background-color: #228ABF;
+
+	overflow:hidden;
+}
+
+.nav_logo{
+	margin-left: 50px;
+	margin-top: 10px;
+
+	float: left;
+}
+
+/* 导航栏：搜索框*/
+.search_box{
+	width: 313px;
+	height: 28px;
+	border-radius: 28px;
+	border: none;
+
+/* 搜索框内放大镜图标*/
+	background-image: url(img/search_logo.png);
+	background-repeat: no-repeat;
+	background-position: 18px 5px;
+
+	margin-top: 14px;
+	margin-left: 720px;
+	float: left;
+}
+
+
+/* 导航栏：登录 */
+.login{
+	font: 12px "微软雅黑";
+	color: white;
+
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+.login img{
+	vertical-align: bottom;
+}
+
+/* 内容 */
+.content{
+	width: 100%;
+	height: 1200px;
+	background-color: #EEEDEC;
+}
+
+/* 左侧边栏 */
+.sidebar{
+	width: 260px;
+	height: 1200px;
+	background-color: #2A2E3D;
+	float: left;
+}
+
+.user{
+	margin: 18px 0px 25px 45px;
+}
+
+.user img{
+	vertical-align: middle;
+}
+
+.user_name{
+	font: 16px "黑体";
+	color: #F6F5F5;
+	margin-left: 20px;
+}
+
+/* 侧栏：用户状态 */
+.user_status{
+	width: 100%;
+	height: 30px;
+
+	margin-bottom: 20px;
+}
+
+/* 收藏数 */
+.collection{
+	width: 56px;
+	height: 100%;
+	border-right: 1px solid #323647;
+	line-height: 0px;
+
+	float: left;
+	padding-left: 62px;	
+}
+
+.collection_num{
+	font: 16px "黑体";
+	color: #6E8095;
+}
+
+.collection_txt{
+	font: 12px "宋体";
+	color:  #6E8095;
+}
+/* 粉丝数 */
+.fans{
+	height: 100%;
+	width: 90px;
+	line-height: 0px;
+
+	margin-left: 30px;
+	float: left;	
+}
+
+.fans_num{
+	font: 16px "黑体";
+	color: #6E8095;
+}
+
+.fans_txt{
+	font: 12px "宋体";
+	color:  #6E8095;
+}
+
+/* 个人报表(高亮显示区域) */
+.my_file{
+	width: 100%;
+	height: 190px;
+	background-color: #383D4E;
+}
+
+.my_file ul{
+	font: 12px "黑体";
+
+	margin-left: 45px;
+	float: left;
+}
+
+.my_file li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.my_file_txt{
+	list-style-image: url("img/my_file.png");
+	color: #EDEDEF;
+}
+
+.folder1{
+	list-style-image: url("img/for_folder.png");
+	color: #6E8095;
+
+	margin-left: 20px;
+}
+
+.folder2{
+	list-style-image: url("img/for_open_folder.png");
+	color: #EDEDEF;
+
+	margin-left: 20px;
+}
+
+.folder3{
+	list-style-image: url("img/for_folder.png");
+	color: #6E8095;
+
+	margin-left: 20px;
+}
+
+.file1{
+	list-style-image: url("img/open_file.png");
+	color: #EDEDEF;
+
+	margin-left: 50px;
+}
+
+.file2{
+	list-style-image: url("img/file.png");
+	color: #6E8095;
+
+	margin-left: 50px;
+}
+
+/* 侧栏其他个人导航 */
+.others{
+	height: 250px;
+	width: 100%;
+}
+
+.others ul{
+	margin-top: 0px;
+	margin-left:  45px;
+	float: left;
+}
+
+.others li{
+	width: 150px;
+	font: 12px "黑体";
+	color: #6E8095;
+
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+
+.my_collection{
+	list-style-image: url("img/collection.png");
+}
+
+.my_share{
+	list-style-image: url("img/share.png");
+}
+
+.my_pictures{
+	list-style-image: url("img/pictures.png");
+}
+
+.my_growth{
+	list-style-image: url("img/growth.png");
+}
+
+.my_account{
+	list-style-image: url("img/account.png");
+}
+
+
+/* 内容 */
+.file{
+	height: 100%;
+	background-color: #EEEDED;
+	padding-left: 260px;
+}
+
+/* 目录路径 */
+.path{
+	height: 20px;
+	background-color: white;
+	font: 12px "黑体";
+	color: #6898C2;
+
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+/* 查询 */
+.inquire{
+	width: 900px;
+	height: 80px;
+	background-color: white;
+	
+	margin: 20px auto 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	vertical-align: middle;
+	overflow: hidden;
+	position: relative;
+}
+
+.inquire ul{
+	width: 700px;
+	font: 12px "黑体";
+	color: #AAAAAA;
+}
+
+.inquire li{
+	height: 30px;
+	width: 175px;
+	float: left;
+	list-style: none;
+}
+
+.inquire_item{
+	width: 71px;
+	height: 26px;
+}
+
+.buyer{
+	width: 120px;
+	height: 26px;
+}
+
+.seller{
+	width: 120px;
+	height: 26px;
+}
+
+.date{
+	width: 120px;
+	height: 20px;	
+}
+
+.number{
+	width: 70px;
+	height: 26px;
+}
+
+.time{
+	width: 78px;
+	height: 26px;
+}
+
+.deal{
+	width: 120px;
+	height: 26px;
+}
+
+.inquire img{
+	position: absolute;
+	left: 330px;
+	top: 36px;
+}
+
+.li_buyer{
+	position: relative;
+	right: 40px;
+}
+
+.li_seller{
+	position: relative;
+	right: 40px; 
+}
+
+.search_button{
+	width: 50px;
+	height: 26px;
+	background-color: #388AC1;
+	font: 12px "黑体";
+	color: white;
+	border: none;
+
+	position: absolute;
+	right: 130px;
+	top: 30px;
+}
+
+/* 时间分布 */
+.timeline{
+	height: 65px;
+	width: 900px;
+
+	margin: 0px auto 40px;
+}
+
+.go_left,.go_right{
+	height: 100%;
+	width: 30px;
+	background-color: white;
+	
+	border: 10px 0px 0px 10px;
+	border: 1px solid #D7D9DC;
+	border-right: 0px;
+	border-bottom: 0px;
+	float: left;
+}
+
+.go_left img,.go_right img{
+	position: relative;
+	left: 10px;
+	top: 25px;
+}
+
+.go_right{
+	margin-left: 5px;
+}
+
+.time_10,.time_11,.time_12,.time_1,.time_2,.time_3{
+	height: 100%;
+	width: 110px;
+	background-color: white;
+
+	overflow: hidden;
+
+	position: relative;
+	float: left;
+	margin-left: 5px;
+	border: 10px 0px 0px 10px;
+	border: 1px solid #D7D9DC;
+	border-right: 0px;
+	border-bottom: 0px;
+}
+
+.time_10{
+	box-sizing: border-box;
+	border-top: 3px solid #4388C8;
+}
+
+.t_time{
+	font: 12px "微软雅黑";
+	color: #323333;
+
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+
+.t_money{
+	font: 21px "微软雅黑";
+	color: #EC6500;
+
+	position: absolute;
+	top: 25px;
+	left: 20px;
+}
+
+.history{
+	width: 130px;
+	height: 100%;
+	background-color: white;
+	font: 12px "微软雅黑";
+	color: #535353;
+
+	float: left;
+	margin-left: 5px;
+
+	border: 10px 0px 0px 10px;
+	border: 1px solid #D7D9DC;
+	border-right: 0px;
+	border-bottom: 0px;
+
+}
+
+.history img{
+	margin-left: 20px;
+	margin-top: 18px;
+}
+
+.t_history{
+	position: relative;
+	bottom: 10px;
+	left: 7px;
+
+}
+
+/* 2016年4月份统计 */
+.April_data{
+	width: 900px;
+	height: 70px;
+	font: 12px "微软雅黑";
+	color: #323333;	
+
+
+	margin: 0px auto;
+	position: relative;
+}
+
+.t_April{
+	position: absolute;
+	top: -18px;
+}
+
+.green,.blue,.red,.yellow{
+	width: 200px;
+	height: 100%;
+	background-color: white;
+
+	margin-right: 29px;
+	float: left;
+}
+
+.green{
+	border-left: 3px solid #43B29E;
+}
+
+.blue{
+	border-left: 3px solid #388BC2;
+}
+
+.red{
+	border-left: 3px solid #D04A36;
+}
+
+.yellow{
+	border-left: 3px solid #E2CD46;
+	margin-right: 0px;
+}
+
+.greenbox,.bluebox,.redbox,.yellowbox{
+	width: 60px;
+	height: 46px;
+
+	float: right;
+	margin-right: 15px;
+	margin-top: 12px;
+}
+
+.deal_num{
+	font: 12px "黑体";
+	color: #323333;
+
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px
+}
+
+.deal_txt{
+	font: 10px "黑体";
+	color: #AAAAAA;
+	
+	position: relative;
+	top: 40px;
+	right: 30px;
+}
+
+.greenbox{
+	background-color: #43B29E;
+}
+
+.bluebox{
+	background-color: #388BC2;
+}
+
+.redbox{
+	background-color: #D04A36;
+}
+
+.yellowbox{
+	background-color: #E2CD46;
+}
+
+/* 第一组项目 */
+.group1{
+	width: 900px;
+	height: 355px;
+	margin: 15px auto 10px;
+}
+
+/* 第一组项目：左栏 */
+.group1_left{
+	width: 530px;
+	height: 100%;
+	background-color: white;
+	border: 1px solid #D0D2D5;
+	border-radius: 10px;
+
+	float: left;
+	margin-right: 10px;
+}
+
+.left_title{
+	height: 35px;
+	background-color: #F4F5F6;
+
+	border-radius: 10px 10px 0px 0px;
+}
+
+.t_title{
+	font: 12px "黑体";
+	color: #AAAAAA;
+
+	margin-left: 20px;
+	margin-top: 10px;
+	float: left;
+}
+
+
+
+
+
+.tab_box{
+	width: 490px;
+	height: 280px;
+
+
+	margin-left: 20px;
+	margin-top: 15px;
+	float: left;
+
+	position: relative;
+}
+
+.tab{
+	height: 100%;
+	float: left;
+}
+
+.h_radio{
+	width: 85px;
+	height: 30px;
+	font: 12px/30px "微软雅黑";
+	background-color: #EDEDF0;
+
+	display: block;
+	margin-right: 3px;
+	margin-bottom: -1px;
+	text-align: center;
+
+	cursor: pointer;
+}
+
+.tab_content{
+	width: 490px;
+	height: 250px;
+	border: 1px solid #CBCBCC;
+	border-radius: 0px 5px 5px 5px;
+}
+
+.project_radio,.tab_content{
+	position: absolute;
+	z-index: -1;
+}
+
+.project_radio:checked~.tab_content{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+}
+
+.project_radio:checked~.h_radio{
+	background-color: white;
+	
+	border: 1px solid #CBCBCC;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 0px;
+
+	position: relative;
+	z-index: 2;
+
+	cursor: default;
+}
+
+.tab table{
+	font: 12px/30px "宋体";
+	color: #535353;
+
+	margin-left: 35px;
+	margin-top: 30px;
+}
+
+.tab td{
+	width: 100px;
+	height: 30px;
+}
+
+.tab td:hover{
+	background-color: #F4F5F7;
+}
+
+
+
+/* 第一组项目：右栏 */
+.group1_right{
+	width: 350px;
+	height: 100%;
+	background-color: white;
+	font: 12px/20px "微软雅黑";
+	color: #535353;
+
+	border: 1px solid #D0D2D5;
+	border-radius: 10px;
+	float: left;
+}
+
+.headline{
+	width: 265px;
+	height: 35px;
+	font: 12px/20px "微软雅黑";
+	color: #C3C2C2;
+
+	padding: 10px 0px 10px 15px;
+	margin: 0px auto;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.project_name{
+	color: #535353;
+}
+
+.price_person{
+	width: 265px;
+	height: 45px;
+	font: 12px/20px "微软雅黑";
+
+	margin: 0px auto;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.price{
+	width: 95px;
+	height: 100%;
+
+	padding-left: 10px;
+	border-right: 1px solid #E7E7E7;
+	display: inline-block; 
+}
+
+.person{
+	height: 100%;
+
+	padding: 5px 0px 0px 15px;
+	display: inline-block;
+}
+
+.t_price{
+	color: #C3C2C2;
+}
+
+.t_person{
+	color: #C3C2C2;
+}
+
+.description{
+	width: 265px;
+	height: 145px;
+
+	border-bottom: 1px solid #D0D2D5;
+	padding: 10px 0px 10px 15px;
+	margin: 0px auto;	
+}
+
+.t_description{
+	color: #C3C2C2;
+}
+
+.permission_search{
+	width: 265px;
+	height: 100%;
+
+	margin: 0px auto;
+	padding-top: 10px;
+}
+
+.protocol{
+	color: #C3C2C2;
+	vertical-align: top;
+}
+
+.b_search{
+	width: 50px;
+	height: 26px;
+	background-color: #388AC1;
+	font: 12px "黑体";
+	color: white;
+	border: none;
+
+	float: right;
+}
+
+/* 日历与汽车行业品牌榜 */
+.group2{
+	width: 900px;
+	height: 355px;
+
+	margin: 0px auto;
+}
+
+/* 日历 */
+.group2_left{
+	width: 350px;
+	height: 355px;
+	background-color: white;
+	border: 1px solid #D0D2D5;
+	border-radius: 10px;
+
+	float: left;
+	margin-right: 10px;
+}
+
+.left_title{
+	height: 35px;
+	background-color: #F4F5F6;
+
+	border-radius: 10px 10px 0px 0px;
+}
+
+.t_title{
+	font: 12px "黑体";
+	color: #AAAAAA;
+
+	margin-left: 20px;
+	margin-top: 10px;
+	float: left;
+}
+
+.control{
+	width: 310px;
+	height: 20px;
+
+	padding: 10px 0px;
+	margin: 0px auto;
+	border-bottom: 2px solid #A9CFEC;
+}
+
+.year{
+	width: 65px;
+	height: 25px;
+}
+
+.month{
+	width: 65px;
+	height: 25px;
+
+	margin-right: 5px;
+}
+
+.date_wanted{
+	width: 90px;
+	height: 25px;
+
+	margin-right: 5px;
+}
+
+.return{
+	width: 65px;
+	height: 25px;
+}
+
+.day{
+	width: 310px;
+	
+	margin: 0px auto;
+}
+
+.day td{
+	width: 40px;
+	height: 40px;
+	font: 11px "黑体";
+
+	box-sizing: border-box;
+	border: 0px;
+}
+
+.day td:hover{
+	border: 1px solid #F5C62B;
+}
+
+.day th{
+	height: 30px;
+	font: 13px "黑体";
+
+	border-bottom: 1px solid #E1E1E1;
+}
+
+.festival,.rest{
+	color: red;
+}
+
+/* 汽车行业品牌榜 */
+.group2_right{
+	width: 530px;
+	height: 355px;
+	background-color: white;
+	border: 1px solid #D0D2D5;
+	border-radius: 10px;
+
+	float: left;
+}
+
+.right_title{
+	height: 35px;
+	background-color: #F4F5F6;
+
+	border-radius: 10px 10px 0px 0px;
+}
+
+.t_title{
+	font: 12px "黑体";
+	color: #AAAAAA;
+
+	margin-left: 20px;
+	margin-top: 10px;
+	float: left;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.table_billboard{
+	width: 450px;
+	height: 275px;
+	margin: 20px auto 0px;
+}
+
+.table_billboard th,td{
+	text-align: center;
+	border: 1px solid #DEDEDE;
+}
+
+.table_billboard tbody tr:hover{
+	background-color: #F4F5F6;
+}
+
+.table_billboard td{
+	font: 12px "黑体";
+}
+
+.bar{
+	display: inline-block;
+	width: 170px;
+	height: 5px;
+	background-color: #DCDCDC;
+}
+
+.bar1,.bar2,.bar3,.bar4,.bar5,.bar6,.bar7,.bar8,.bar9,.bar10{
+	display: block;
+	height: 100%;
+}
+
+.bar1{
+	width: 85%;
+	background-color: #EE907A;
+}
+
+.bar2{
+	width: 75%;
+	background-color: #EF8150;
+}
+
+.bar3{
+	width: 68%;
+	background-color: #F19E4F;
+}
+
+.bar4{
+	width: 63%;
+	background-color: #9FD8F4;
+}
+
+.bar5{
+	width: 55%;
+	background-color: #7FCAF0;
+}
+
+.bar6{
+	width: 51%;
+	background-color: #7ECAF0;
+}
+
+.bar7{
+	width: 46%;
+	background-color: #87CDF1;
+}
+
+.bar8{
+	width: 44%;
+	background-color: #7FCBF0;
+}
+
+.bar9{
+	width: 40%;
+	background-color: #7FCAF0;
+}
+
+.bar10{
+	width: 35%;
+	background-color: #7ECAF0;
+}
