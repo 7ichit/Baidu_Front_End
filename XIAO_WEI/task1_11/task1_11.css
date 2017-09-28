@@ -1,0 +1,204 @@
+/* 全局设定 */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* 标题栏 */
+.headline{
+	width: 100%;
+	height: 120px;
+	background-color: #91D4DA;
+
+	font: 50px/120px "黑体";
+	color: white;
+	text-align: center;
+}
+
+.return{
+	font: 40px/120px "黑体";
+
+	margin-left: 40px;
+	float: left;
+}
+
+.go_left{
+	font: 70px/120px "黑体";
+	float: left;
+}
+/* 导航 */
+.nav1{
+	height: 650px;
+	width: 100%;
+}
+
+.nav1 ul{
+	height: 100px;
+	border-bottom: 5px solid transparent;
+}
+
+.nav1 ul li{
+	height: 100px;
+	width: 20%;
+
+	font: 40px/100px "黑体";
+	text-align: center;
+	list-style: none;
+	
+	float: left;
+}
+
+.nav1 ul li:hover{
+	border-bottom: 5px solid #91D4DA;
+}
+
+.nav1 img{
+	width: 100%;
+	height: 550px;
+}
+/* 目录 */
+.index{
+	height: 300px;
+	width: 100%;
+}
+
+.index ul{
+	height: 100%;
+	border-bottom: 3px solid #DEDEDE;
+	padding-bottom: 30px;
+	margin: 0px 40px 0px; 
+}
+
+.index ul li{
+	height: 100%;
+	width: 20%;
+	
+	font: 40px/100px "黑体";
+
+	margin-top: 45px;
+
+	text-align: center;
+	list-style: none;
+
+	float: left;
+}
+/* 分栏 */
+.col{
+	height: 400px;
+	margin-top: 100px;
+}
+
+.col1,.col2,.col3{
+	width: 32%;
+	height: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+.col1,.col2{
+	border-right: 3px solid #DEDEDE;
+}
+
+.h_col{
+	font: 50px "黑体";
+}
+
+.sh_col{
+	font: 45px/70px "黑体";
+	color: #5C5C5C;
+}
+/* 模块与文章 */
+.modules{
+	background-color: #F8F8F8;
+	padding: 60px 0px 10px;
+}
+
+.module{
+	height: 780px;
+	width: 100%;
+	margin-bottom: 50px;
+	background-color: white;
+}
+
+.h_module{
+	height: 120px;
+	width: 90%;
+
+	font: 50px/120px "黑体";
+
+	margin-left: 50px;
+	border-bottom: 3px solid #DEDEDE; 
+}
+
+.c_module{
+	height: 480px;
+	margin: 40px 50px 0px;
+}
+
+.c_module img{
+	height: 260px;
+	width: 260px;
+	margin-top: 10px;
+	float: left;
+}
+
+.row{
+	height: 230px;
+	margin-bottom: 80px;
+	overflow: hidden;
+}
+
+.box{
+	height: 100px;
+	width: 30%;
+	background-color: #F8F8F8;
+
+	font: 40px/100px "黑体";
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 30px;
+	float: left;
+}
+
+/* 文章 */
+.articles{
+	background-color: #F8F8F8;
+}
+
+.article{
+	height: 220px;
+	padding: 30px 0px 0px 50px;
+	margin-bottom: 30px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.article img{
+	float: left;
+}
+
+.h_article{
+	font: 42px "黑体";
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+.description{
+	font: 30px "黑体";
+	color: #C0C0C0;
+	margin-left: 20px;
+}
+
+.another_article{
+	background-color: white;
+	padding: 20px 0px 0px 50px;
+	overflow: hidden;
+}
+
+.for_row{
+	margin: 20px 0px 0px 20px;
+}
+
+.for_row img{
+	margin-right: 10px;
+}
