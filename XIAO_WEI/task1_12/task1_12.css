@@ -1,0 +1,98 @@
+/* 全局设定 */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* task1 */
+table{
+	margin: 30px auto 0px;
+}
+
+thead{
+	color: white;
+	background: black;
+}
+
+tbody tr:nth-child(even){
+	background: #CCCCCC;
+}
+
+tbody tr:nth-child(1),tr:nth-child(2),tr:nth-child(3){
+	color: red;
+}
+
+/* task2 */
+.before,.after{
+	display: block;
+}
+
+.before{
+	margin: 50px auto 0px;
+}
+
+.after{
+	width: 300px;
+	height: 20px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 18px #f00;
+	margin: 30px auto 0px;
+}
+
+/* task3 */
+.box{
+	width: 500px;
+	height: 200px;
+	margin: 50px auto 0px;
+	overflow: hidden;
+	position: relative;
+}
+
+.box1,.box2,.box3{
+	width: 500px;
+	height: 200px;
+	float: left;
+}
+
+.boxes{
+	width: 1500px;
+	height: 200px;
+	-webkit-animation: move 5s linear 3s infinite alternate; 
+}
+
+.box1{
+	background: green;
+}
+
+.box2{
+	background: blue;
+}
+
+.box3{
+	background: red;
+}
+
+.focus{
+	width: 150px;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.focus1,.focus2,.focus3{
+	font: 18px/30px "黑体";
+	text-align: center;
+	width: 40px;
+	height: 100%;
+	color: white;
+	background: black;
+	opacity: 0.7;
+	float: left;
+	margin-left: 3px;
+}
+
+@keyframes move{
+	0%	{ margin-left: 0px }
+	100% { margin-left: -1000px }
+}
