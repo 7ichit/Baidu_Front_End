@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>task2_4</title>
+	<style type="text/css">
+		/* 队列元素外观设定 */
+		#container div{
+			display: inline-block;
+			height: 60px;
+			padding: 0px 15px 0px 15px; 
+			margin: 10px 0px 0px 5px;
+			font: 30px/60px "Microsoft YaHei";
+			background-color: red;
+			color: white;
+			text-align: center;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<!-- 输入框 -->
+	<input type="text" id="num">
+	<!-- 按钮 -->
+	<button id="leftin" onclick="leftin()">左侧入</button>
+	<button id="rightin" onclick="rightin()">右侧入</button>
+	<button id="leftout" onclick="leftout()">左侧出</button>
+	<button id="rightout" onclick="rightout()">右侧出</button>
+	<!-- 队列容器 -->
+	<div id="container">
+	<!-- 队列内部 -->
+	</div>
+<script type="text/javascript" src="task2_4.js"></script>
+</body>
+</html>
