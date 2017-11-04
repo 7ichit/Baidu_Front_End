@@ -47,7 +47,7 @@ if (oprator==="leftin"||oprator==="rightin"){
 // 删除类操作
 if (oprator==="leftout"||oprator==="rightout"||oprator==="del") {
 	// 检测队列是否为空
-	if (container.childNodes.length<1) {
+	if (container.getElementsByTagName("div").length==0) {
 		alert("队列为空，请输入数字。");
 		num.focus();
 	}
