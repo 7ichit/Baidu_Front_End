@@ -54,8 +54,7 @@ if (oprator==="leftout"||oprator==="rightout"||oprator==="del") {
 
 	// 点击队列元素删除
 	else if(oprator==="del"){
-		alert("删除数字："+event.target.innerHTML+"!");
-		container.removeChild(event.target);
+		alert("删除数字："+container.removeChild(event.target).innerHTML+"!");
 	}
 
 	else{
