@@ -19,6 +19,10 @@ task1_12
 
 斌斌学院
 task2_1
+task2_2
+task2_3
+task2_4
+task2_5
 
 耀耀学院
 task3_1
